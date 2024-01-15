@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="developer.png" type="image/x-icon">
+    <!-- external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+    <form action="">
+    <table>
+        <tbody>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text" placeholder="Only First Name" autofocus ></td>
+            </tr>
+            <tr>
+                <td><label>SurName</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Mobile Number</label></td>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Email ID </label></td>
+                <td><input type="email" placeholder="ex.abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="">Country</label></td>
+                <td><input type="text" value="India" disabled></td>
+            </tr>
+            <tr>
+                <td><label for="">DOB</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="">Available in Week</label></td>
+                <td><input type="week"></td>
+            </tr>
+            <tr>
+                <td><label for="">Profile Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="">Upload marksheet</label></td>
+                <td><input type="file" multiple></td>
+            </tr>
+            <tr>
+                <td><label for="">Select Graduation</label></td>
+                <td>
+                    <select>
+                        <option>B.Com</option>
+                        <option>B.Sc</option>
+                        <option>B.CA</option>
+                        <option>M.CA</option>
+                        <option>M.Sc</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Select Gender</label></td>
+                <td>
+                    <input type="radio" name="Gender" ><label for="">Male</label>
+                    <input type="radio" name="Gender" ><label for="">Female</label>
+                    <input type="radio" name="Gender" ><label for="">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Skill</label></td>
+                <td>
+                    <input type="checkbox" ><label for="">HTML</label>
+                    <input type="checkbox" ><label for="">CSS</label>
+                    <input type="checkbox" ><label for="">Javascript</label>
+                    <input type="checkbox" ><label for="">GIT</label>
+                </td>
+            </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td>
+                        <textarea name="" id="" cols="25" rows="5"></textarea>
+                    </td>
+                </tr>
+            <tr>
+                <td><button type="submit">submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</fieldset>
+</body>
+</html>
